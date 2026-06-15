@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "universal-game-mod-manifest-parser"
+version = "1.0.0"
+description = "A generalized, schema-mappable XML mod manifest and metadata configuration file parser."
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = ["xml", "manifest", "metadata", "parser", "modding", "game-mod"]
+authors = [
+    { name = "Berat" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Games/Entertainment",
+    "Topic :: Text Processing :: Markup :: XML",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[project.urls]
+Homepage = "https://github.com/beratmumcu/universal-game-mod-manifest-parser"
+
+[tool.hatch.build.targets.wheel]
+packages = ["universal_game_mod_manifest_parser"]
