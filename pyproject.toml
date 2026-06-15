@@ -26,4 +26,4 @@ classifiers = [
 Homepage = "https://github.com/beratmumcu/universal-game-mod-manifest-parser"
 
 [tool.hatch.build.targets.wheel]
-packages = ["universal_game_mod_manifest_parser"]
+packages = ["parser.py"]
